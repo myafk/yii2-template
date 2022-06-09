@@ -1,0 +1,18 @@
+.modal .modal-body .btn.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.modal .modal-body .btn.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.modal .modal-body .has-error input[type="text"],
+.modal .modal-body .has-error input[type="password"],
+.modal .modal-body .has-error input[type="url"],
+.modal .modal-body .has-error input[type="number"] {
+    border-color: #a94442;
+}

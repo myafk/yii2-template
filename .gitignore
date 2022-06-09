@@ -1,0 +1,40 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# local configurations
+config/*-local.php
+
+# Environment settings
+web/index.php
+/yii
+
+# Production ssl data
+*.crt
+*.key
+
+# Production bin files
+*.BIN
+*.bin
+
+# Commands
+commands/EmptyController.php

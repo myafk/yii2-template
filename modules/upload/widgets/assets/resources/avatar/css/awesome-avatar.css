@@ -1,0 +1,43 @@
+.awesome-avatar-select-area {
+    border: 1px solid #ddd;
+    box-sizing: content-box;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.awesome-avatar-select-area img {
+    max-width: 400px;
+}
+
+.awesome-avatar-input {
+    width: 100%;
+    margin-top: 6px;
+}
+
+.awesome-avatar-preview {
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.upload_text {
+    cursor: pointer;
+}
+
+.upload_text img.avatar {
+    background-image: url(./empty-avatar-png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+}
+
+.awesome-avatar-preview img {
+    background-image: url(./empty-avatar-png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

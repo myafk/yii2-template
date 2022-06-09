@@ -1,0 +1,62 @@
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\f15d";
+}
+
+a.desc:after {
+    content: "\f881";
+}
+
+/*
+.sort-numerical a.asc:after {
+    content: "\f0aa";
+}
+
+.sort-numerical a.desc:after {
+    content: "\f0ab";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\f35b";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\f358";
+}
+*/
+
+div.required label:after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 7px;
+    content: "\f621";
+    color: red;
+    position: relative;
+    top: -6px;
+    left: 2px;
+}
+
+.glyphicon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.glyphicon.glyphicon-eye-open:before {
+    content: "\f06e";
+}
+
+.glyphicon.glyphicon-pencil:before {
+    content: "\f304";
+}
+
+.glyphicon.glyphicon-trash:before {
+    content: "\f1f8";
+}

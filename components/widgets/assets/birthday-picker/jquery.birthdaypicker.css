@@ -1,0 +1,15 @@
+.birthdaypicker .birthdaypicker-select {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.birthdaypicker .birthdaypicker-age-label {
+    margin-top: -3px;
+}
+.birthdaypicker .birthdaypicker-age-label:empty {
+    display: none;
+}
+
+.birthdaypicker-month, .birthdaypicker-day {
+    width: 46% !important;
+}
